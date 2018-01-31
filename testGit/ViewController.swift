@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+ 
+    @IBOutlet weak var ttt: UIButton!
+    
+    @IBAction func output(){
+        print(ttt.titleLabel?.text! as Any)
+        print("Good");
+    }
 
 }
 
