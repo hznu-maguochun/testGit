@@ -8,6 +8,6 @@
 
 import Foundation
 func gk(){
-    
+    print("Welcome")
     
 }
