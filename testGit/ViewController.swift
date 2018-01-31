@@ -22,7 +22,9 @@ class ViewController: UIViewController {
 
  
     @IBOutlet weak var ttt: UIButton!
-    
+    func testGit(){
+        
+    }
     @IBAction func output(){
         print(ttt.titleLabel?.text! as Any)
         print("Good");
