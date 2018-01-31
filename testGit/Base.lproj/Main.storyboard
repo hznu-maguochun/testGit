@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHI-n9-mOT">
-                                <rect key="frame" x="155" y="273" width="65" height="30"/>
+                                <rect key="frame" x="164" y="309" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Well Print"/>
                                 <connections>
-                                    <action selector="output" destination="BYZ-38-t0r" eventType="touchUpInside" id="DqB-bD-dgm"/>
+                                    <action selector="output" destination="BYZ-38-t0r" eventType="touchUpInside" id="yYG-ak-OCJ"/>
                                 </connections>
                             </button>
                         </subviews>

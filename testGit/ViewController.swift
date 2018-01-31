@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
@@ -24,8 +25,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var ttt: UIButton!
     
     @IBAction func output(){
-        print(ttt.titleLabel?.text! as Any)
-        print("Good");
+        print("start")
+        Alamofire.request("http://www.baidu.com").responseString { (rspstring) in
+            print(rspstring)
+        }
+        print("end")
     }
 
 }
