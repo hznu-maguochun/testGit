@@ -15,6 +15,7 @@
 		9659149D2021DFA200EABD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9659149B2021DFA200EABD54 /* LaunchScreen.storyboard */; };
 		965914A82021DFA300EABD54 /* testGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965914A72021DFA300EABD54 /* testGitTests.swift */; };
 		965914B32021DFA300EABD54 /* testGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965914B22021DFA300EABD54 /* testGitUITests.swift */; };
+		965914C12021EFFA00EABD54 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965914C02021EFFA00EABD54 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		965914AE2021DFA300EABD54 /* testGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		965914B22021DFA300EABD54 /* testGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testGitUITests.swift; sourceTree = "<group>"; };
 		965914B42021DFA300EABD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965914C02021EFFA00EABD54 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9659149B2021DFA200EABD54 /* LaunchScreen.storyboard */,
 				9659149E2021DFA200EABD54 /* Info.plist */,
 				965914962021DFA200EABD54 /* testGit.xcdatamodeld */,
+				965914C02021EFFA00EABD54 /* File.swift */,
 			);
 			path = testGit;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				965914922021DFA200EABD54 /* ViewController.swift in Sources */,
+				965914C12021EFFA00EABD54 /* File.swift in Sources */,
 				965914902021DFA200EABD54 /* AppDelegate.swift in Sources */,
 				965914982021DFA200EABD54 /* testGit.xcdatamodeld in Sources */,
 			);
