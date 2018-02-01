@@ -12,3 +12,8 @@ func gk(){
     //OK，这个是一个测试
     
 }
+public class xx:NSObject{
+    public func t(){
+        print("This is xxx->t")
+    }
+}
